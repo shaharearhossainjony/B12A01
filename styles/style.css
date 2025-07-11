@@ -43,10 +43,10 @@
     .logo a{
       text-decoration:none;
      color:#4E47FF;
-
-   
     }
-
+.logo a:hover{
+  color:#ff4747;
+}
     .signup-btn {
       background-color: #4e47ff;
       color: white;
@@ -242,13 +242,16 @@
     }
 .ready-to-focus-section{
   
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.155);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.155);
   border-radius:14px;
   background-color:rgb(255, 255, 255);
   align-items:center;
   text-align:center;
   margin-top:30px;
-  /* margin-bottom:20px; */
+  margin:50px auto;
+  padding:30px 50px;
+
+  width:1000px;
 }
 
 
@@ -299,7 +302,7 @@
     }
 
     .contact-form {
-      background-color: #ffffff;
+      /* background-color: #ffffff; */
       padding: 20px;
       border-radius: 8px;
       width: 100%;
@@ -356,8 +359,9 @@
       color:#4E47FF;
     }
     .foot-text{
-      margin-top:20px;
-      margin-bottom:20px;
+     margin:10px auto;
+     width:540px;
+     height:48px;
       font-size:20px;
       text-align:center;
     }
@@ -371,8 +375,11 @@
     
     }
 .foot-nav a{
+  margin-left:20px;
    
   text-decoration:none;
   color:#252432;
+  transition: 0.5s;
+  box-shadow: 5px 5px 1px rgb(217, 213, 213);
   
 }
