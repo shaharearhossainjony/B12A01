@@ -84,6 +84,33 @@
       font-size:16px;
       font-weight:bold;
     }
+.set-in-action-item{
+  
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:50px;
 
-   
+}
+.action-text{
+  margin-left:140px;
+}
+.action-text h3{
+    font-size: 42px;
+    font-weight:bold;
+    margin-bottom:23px;
+}
+.action-text p{
+    font-size:24px;
+    font-weight:400px;
+    color:#252432;
+    margin-bottom:23px;
+}
+
+.wbfmini{
+    border-radius:48px;
+    margin-top:116px;
+    margin-right:160px;
+}
+
    
