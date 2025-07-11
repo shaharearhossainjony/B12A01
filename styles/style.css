@@ -1,0 +1,89 @@
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    
+.raleway-sp {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+    .top-section {
+      background-image: url('../Assets/Hero-bg.png');
+      background-size: cover;
+      background-position: top center;
+      color: white;
+      padding-bottom: 60px;
+    }
+
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    .logo {
+      font-size: 34px;
+      font-weight: bold;
+      /* color: #fff; */
+      color:#4E47FF;
+       margin-top:50px;
+      margin-left:150px;
+    }
+    .logo a{
+      text-decoration:none;
+     color:#4E47FF;
+
+   
+    }
+
+    .signup-btn {
+      background-color: #4e47ff;
+      color: white;
+      border: none;
+      padding: 12px 36px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size:16px;
+      font-weight:bold;
+      margin-top:50px;
+      margin-right:150px;
+    }
+
+    
+    .hero {
+      text-align: center;
+      padding: 100px 20px 60px;
+      align-items:center;
+    }
+
+    .hero h1 {
+      text-align:center;
+      font-size: 65px;
+      margin-bottom: 37px;
+      font-weight:bold;
+      color: #000; 
+    }
+
+    .btn-primary {
+      background-color: #4e47ff;
+      color: white;
+      border: none;
+      padding: 12px 36px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size:16px;
+      font-weight:bold;
+    }
+
+   
+   
