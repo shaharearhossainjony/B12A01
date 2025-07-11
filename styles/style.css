@@ -121,6 +121,7 @@
     background-color:rgba(78, 71, 255, 0.10);
 }
 .productive-user-section h3{
+  color:#252432;
   text-align:center;
   margin-top:50px;
   /* margin-right:142px; */
@@ -149,5 +150,68 @@
     color:rgba(37, 36, 50, .5);
     /* padding-bottom:50px; */
 }
+.intro-user-sec-feedback{
+  font-size:42px;
+  font-weight:bold;
+  color:#252432;
+  margin-left:150px;
+  margin-right:150px;
+  margin-top:50px;
+  text-align:center;
+}
+  
 
-   
+.testimonials {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      width: 280px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .stars {
+      margin-bottom: 10px;
+    }
+
+    .stars img {
+      width: 16px;
+      height: 16px;
+      margin-right: 2px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .text {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .reviewer img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      font-size: 13px;
+      color: #888;
+    }
