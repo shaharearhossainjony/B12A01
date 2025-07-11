@@ -4,6 +4,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      /* background-color:#f5f8ff; */
     }
     
     
@@ -113,12 +114,11 @@
     margin-right:160px;
 }
 .productive-user-section{
-    margin-right:159px;
-    margin-left:141px;  
+    
     border-radius:24px;
     text-align:center;
     align-items:center;
-    background-color:rgba(78, 71, 255, 0.10);
+    background-color:rgba(77, 71, 255, 0.10);
 }
 .productive-user-section h3{
   color:#252432;
@@ -158,6 +158,8 @@
   margin-right:150px;
   margin-top:50px;
   text-align:center;
+  margin-bottom:50px;
+  
 }
   
 
@@ -166,12 +168,14 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 20px;
+      
+      
     }
 
     .card {
       background: #fff;
       border-radius: 14px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.155);
       width: 280px;
       padding: 20px;
       text-align: left;
@@ -179,27 +183,32 @@
 
     .stars {
       margin-bottom: 10px;
+      background: #fff;
     }
 
     .stars img {
       width: 16px;
       height: 16px;
       margin-right: 2px;
+      background: #fff;
     }
 
     .title {
+      background: #fff;
       font-weight: bold;
       font-size: 16px;
       margin-bottom: 8px;
     }
 
     .text {
+      background: #fff;
       font-size: 14px;
       color: #555;
       margin-bottom: 15px;
     }
 
     .reviewer {
+      background: #fff;
       display: flex;
       align-items: center;
       gap: 10px;
@@ -212,6 +221,36 @@
     }
 
     .reviewer-info {
+      background-color: #fff;
       font-size: 13px;
       color: #888;
+    }
+.ready-to-focus-section{
+  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.155);
+  border-radius:14px;
+  background-color:rgb(255, 255, 255);
+  align-items:center;
+  text-align:center;
+  margin-top:30px;
+  /* margin-bottom:20px; */
+}
+
+
+    .focus-intro{
+      font-weight:bold;
+      font-size:50px;
+    }
+    .focus-text{
+      margin-top:15px;
+      font-size:18px;
+    }
+
+
+    .focus-img{
+      border-radius:48px;
+    }
+    .btn-free{
+      margin-top:20px;
+      margin-bottom:20px;
     }
