@@ -369,8 +369,8 @@
     }
     .foot-text{
      margin:10px auto;
-     width:540px;
-     height:48px;
+     width:600px;
+     height:50px;
       font-size:20px;
       text-align:center;
     }
@@ -385,11 +385,11 @@
     }
 .foot-nav a{
   margin-left:20px;
-   
+   background-color:white;
   text-decoration:none;
   color:#252432;
   transition: 0.5s;
-  box-shadow: 5px 5px 1px rgb(217, 213, 213);
+  /* box-shadow: 5px 5px 1px rgb(217, 213, 213); */
   
 }
     .foot-nav a:hover{
