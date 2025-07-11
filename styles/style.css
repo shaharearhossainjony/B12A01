@@ -127,12 +127,18 @@
     margin-top:116px;
     margin-right:160px;
 }
+.mainpro{
+  display:flex;
+  justify-content:center;
+}
 .productive-user-section{
-    
+    width:800px;
     border-radius:24px;
     text-align:center;
     align-items:center;
     background-color:rgba(77, 71, 255, 0.10);
+    padding:20px 30px;
+    margin:50px auto;
 }
 .productive-user-section h3{
   color:#252432;
@@ -358,6 +364,9 @@
       font-size:100px;
       color:#4E47FF;
     }
+    .foot-intro h1:hover{
+      color: #ff4747;
+    }
     .foot-text{
      margin:10px auto;
      width:540px;
@@ -383,3 +392,6 @@
   box-shadow: 5px 5px 1px rgb(217, 213, 213);
   
 }
+    .foot-nav a:hover{
+      color: #ff4747;
+    }
